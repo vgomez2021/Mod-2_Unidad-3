@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* Móvil */
+
+@media (max-width: 800px) {
+    body {
+        background: #332F29;
+        padding: 0;
+	margin: 0;
+    }
+    #contenedor {
+        background: #8FA68E;
+        width:100%;
+        margin-left:0;
+    }
+    nav {
+        background: #ffcc66;
+        width: 800px;
+    }
+    ul {
+        line-height: 180%;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    section {
+        border-top: solid black 1px;
+        background: #f2f2c0;
+        width: 100%;
+        padding: 11px;
+        margin: 0;
+    }
+    aside {
+        border-top: solid black 1px;
+        background: #cdc59e;
+        width: 100%;
+	float: left;
+        padding: 11px;
+        margin: 0;
+    }
+}
